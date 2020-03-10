@@ -1,0 +1,32 @@
+
+MoviesController
+  shows details of a single movie
+    shows info about the selected movie
+  allow creating a movie
+    should create a movie given all params
+  allow editing a movie
+    should get the form to edit a movie given id
+  allow updating a movie
+    should update the movie given all params
+  allow deleting a movie
+    should redirect to movies list after deleting a movie
+  all movies list
+    should show the list of all movies upon loading the homepage
+  enables searching for movies with same director
+    must return movies with the same director
+    must redirect to movies list for no director
+
+Movie
+  enable returning the list of all ratings
+    must contain the list of all ratings
+  enables searching for movies with same director
+    must contain movies with the same director
+    must not contain movies with the other directors
+    must raise an exception in case of a blank director
+
+1 deprecation warning total
+
+Finished in 0.0803 seconds (files took 1.65 seconds to load)
+12 examples, 0 failures
+
+Coverage report generated for Cucumber Features, RSpec to /home/ec2-user/environment/hw3/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 57 / 58 LOC (98.28%) covered.
